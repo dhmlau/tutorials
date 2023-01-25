@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: todo-app-service
+spec:
+  type: NodePort
+  selector:
+    component: todo
+  ports:
+    - port: 3000
+      targetPort: 3000
+      nodePort: 30015

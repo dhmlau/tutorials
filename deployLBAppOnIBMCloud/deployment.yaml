@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-app-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      component: todo
+  template:
+    metadata:
+      labels:
+        component: todo
+    spec:
+      containers:
+        - name: todo
+          image: dhmlau/loopback-todo:1.1
+          ports:
+            - containerPort: 3000
