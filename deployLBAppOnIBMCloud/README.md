@@ -228,6 +228,12 @@ With the public IP address and the port number from NodePort, open the browser a
 
 ![image](./loopback-landing-page.png)
 
+# Kubernetes dashboard for troubleshooting
+You can get more information about the state of your cluster/pods/deployments by going to the Kubernetes dashboard. 
+
+To do that, go back to https://cloud.ibm.com, click on the hamburger icon on the top left corner > Kubernetes > Clusters. Then click on your cluster. There should be a Kubernetes dashboard button at the top. Clicking on it will bring you to a screen like below. In there, you can do your problem determination there. 
+
+![image](./k8s-dashboard.png)
 
 # References 
 - Deploy a microservices app on IBM Cloud by using Kubernetes, https://www.ibm.com/cloud/architecture/tutorials/microservices-app-on-kubernetes
