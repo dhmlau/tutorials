@@ -224,7 +224,7 @@ _Note: `mycluster-free` is my cluster name. Change it if you're using a differen
 ## Step 6: View the REST APIs from LoopBack explorer
 
 With the public IP address and the port number from NodePort, open the browser and go to:
-http://<public IP>:<port number>. You should be able to see something like below:
+`http://<public IP>:<port number>`. You should be able to see something like below:
 
 ![image](./loopback-landing-page.png)
 
